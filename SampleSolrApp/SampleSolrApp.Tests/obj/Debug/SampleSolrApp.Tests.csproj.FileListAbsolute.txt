@@ -1,0 +1,13 @@
+C:\Users\afassett.FNY-10905\Documents\GitHub\SolrNet\SampleSolrApp\SampleSolrApp.Tests\obj\Debug\SampleSolrApp.Tests.csprojResolveAssemblyReference.cache
+C:\Users\afassett.FNY-10905\Documents\GitHub\SolrNet\SampleSolrApp\SampleSolrApp.Tests\bin\Debug\App.config
+C:\Users\afassett.FNY-10905\Documents\GitHub\SolrNet\SampleSolrApp\SampleSolrApp.Tests\bin\Debug\SampleSolrApp.Tests.dll.config
+C:\Users\afassett.FNY-10905\Documents\GitHub\SolrNet\SampleSolrApp\SampleSolrApp.Tests\bin\Debug\SampleSolrApp.Tests.dll
+C:\Users\afassett.FNY-10905\Documents\GitHub\SolrNet\SampleSolrApp\SampleSolrApp.Tests\bin\Debug\SampleSolrApp.Tests.pdb
+C:\Users\afassett.FNY-10905\Documents\GitHub\SolrNet\SampleSolrApp\SampleSolrApp.Tests\bin\Debug\Gallio.dll
+C:\Users\afassett.FNY-10905\Documents\GitHub\SolrNet\SampleSolrApp\SampleSolrApp.Tests\bin\Debug\log4net.dll
+C:\Users\afassett.FNY-10905\Documents\GitHub\SolrNet\SampleSolrApp\SampleSolrApp.Tests\bin\Debug\MbUnit.dll
+C:\Users\afassett.FNY-10905\Documents\GitHub\SolrNet\SampleSolrApp\SampleSolrApp.Tests\bin\Debug\SampleSolrApp.dll
+C:\Users\afassett.FNY-10905\Documents\GitHub\SolrNet\SampleSolrApp\SampleSolrApp.Tests\bin\Debug\SampleSolrApp.pdb
+C:\Users\afassett.FNY-10905\Documents\GitHub\SolrNet\SampleSolrApp\SampleSolrApp.Tests\bin\Debug\log4net.xml
+C:\Users\afassett.FNY-10905\Documents\GitHub\SolrNet\SampleSolrApp\SampleSolrApp.Tests\obj\Debug\SampleSolrApp.Tests.dll
+C:\Users\afassett.FNY-10905\Documents\GitHub\SolrNet\SampleSolrApp\SampleSolrApp.Tests\obj\Debug\SampleSolrApp.Tests.pdb

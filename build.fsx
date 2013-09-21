@@ -31,7 +31,7 @@ let slnBuild sln x =
                                 Properties = ["Configuration",config] @ strongName })
 
 let mainSln = slnBuild "solrnet.sln"
-let sampleSln = slnBuild "SampleSolrApp.sln"
+let sampleSln = slnBuild "SampleSolrApp/SampleSolrApp.sln"
 
 let nuGetBuild = Nu.build version
 
@@ -214,7 +214,7 @@ Target "PackageSampleApp" <| fun _ ->
     cp_r sampleApp outputSampleApp
     rm_rf (outputSampleApp @@ "obj")
     rm_rf (outputSampleApp @@ "log.txt")
-    rm_rf (outputSampleApp @@ "SampleSolrApp.sln.cache")
+    rm_rf (outputSampleApp @@ "./SampleSolrApp/SampleSolrApp.sln.cache")
     mkdir (outputSampleApp @@ "lib")
 
     !+ (outputSampleApp @@ "bin\\*") 

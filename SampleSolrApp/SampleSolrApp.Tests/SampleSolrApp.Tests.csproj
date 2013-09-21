@@ -51,13 +51,18 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Gallio, Version=3.0.6.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\lib\Gallio.dll</HintPath>
+    <Reference Include="Gallio">
+      <HintPath>..\packages\Gallio.3.3.1\lib\NET35\Gallio.dll</HintPath>
     </Reference>
-    <Reference Include="MbUnit, Version=3.0.6.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\lib\MbUnit.dll</HintPath>
+    <Reference Include="log4net">
+      <HintPath>..\SampleSolrApp\packages\log4net.2.0.1\lib\net35-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="MbUnit">
+      <HintPath>..\packages\Gallio.3.3.1\lib\NET35\MbUnit.dll</HintPath>
+    </Reference>
+    <Reference Include="SolrNet">
+      <HintPath>..\..\..\..\..\Downloads\SolrNet.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -77,10 +82,6 @@
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
-    <Reference Include="SolrNet">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\merged\SolrNet.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeControllerTest.cs" />
@@ -89,6 +90,7 @@
     <Compile Include="MSolrReadOnlyOperations.cs" />
     <Compile Include="PaginationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.log4net.cs" />
     <Compile Include="UrlHelperExtensionsTests.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -132,6 +134,8 @@
     <None Include="App.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="packages.config" />
+    <None Include="SolrNet.chm" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
