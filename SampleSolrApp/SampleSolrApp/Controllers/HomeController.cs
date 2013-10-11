@@ -93,7 +93,7 @@ namespace SampleSolrApp.Controllers {
                     DidYouMean = GetSpellCheckingResult(matchingProducts),
                 };
                 return View(view);
-            } catch (SolrNetException) {
+            } catch (InvalidFieldException) {
                 return View(new ProductView {
                     QueryError = true,
                 });
